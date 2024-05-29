@@ -1,5 +1,4 @@
-include!("gen/mod.rs");
+include!("xds/mod.rs");
+include!("envoy/mod.rs");
 
 use googapis::google;
-use prost::Message;
-use prost_types;

@@ -65,14 +65,6 @@ pub mod envoy {
                 }
             }
         }
-        pub mod route {
-            #[cfg(feature = "envoy-config-route-v3")]
-            // @@protoc_insertion_point(attribute:envoy.config.route.v3)
-            pub mod v3 {
-                include!("envoy.config.route.v3.rs");
-                // @@protoc_insertion_point(envoy.config.route.v3)
-            }
-        }
         pub mod upstream {
             pub mod local_address_selector {
                 #[cfg(feature = "envoy-config-upstream-local_address_selector-v3")]
